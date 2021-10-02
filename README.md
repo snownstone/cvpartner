@@ -1,28 +1,7 @@
-<p align="center">
-  <a href="https://revealjs.com">
-  <img src="https://hakim-static.s3.amazonaws.com/reveal-js/logo/v1/reveal-black-text.svg" alt="reveal.js" width="450">
-  </a>
-  <br><br>
-  <a href="https://github.com/hakimel/reveal.js/actions"><img src="https://github.com/hakimel/reveal.js/workflows/tests/badge.svg"></a>
-  <a href="https://slides.com/"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
-</p>
+## 简历伴侣
 
-reveal.js is an open source HTML presentation framework. It enables anyone with a web browser to create fully featured and beautiful presentations for free. [Check out the live demo](https://revealjs.com/).
+使用 [revealjs](https://revealjs.com/) 制作 ❤️
 
-The framework comes with a broad range of features including [nested slides](https://revealjs.com/vertical-slides/), [Markdown support](https://revealjs.com/markdown/), [Auto-Animate](https://revealjs.com/auto-animate/), [PDF export](https://revealjs.com/pdf-export/), [speaker notes](https://revealjs.com/speaker-view/), [LaTeX support](https://revealjs.com/math/), [syntax highlighted code](https://revealjs.com/code/) and much more.
+很久之前在为 CodeLab 做新网站的时候，花了一些时间尝试各种字体效果，当时看到一个[“鼓吹”使用 SVG 做创意字体的网页幻灯](https://brenna.github.io/talk_svg-typography/#/)，那时对 SVG 基本还一头雾水，但是对这个幻灯的风格印象非常深刻。这两天开始用 reveal.js 后，又把那个找了出来，果然，明显就是用 reveal.js 做的，接上了。
 
-<h1>
-  <a href="https://revealjs.com/installation" style="font-size: 3em;">Get Started</a>
-</h1>
-
-## Documentation
-The full reveal.js documentation is available at [revealjs.com](https://revealjs.com).
-
-## Online Editor
-Want to create your presentation using a visual editor? Try the official reveal.js presentation platform for free at [Slides.com](https://slides.com). It's made by the same people behind reveal.js.
-
-## License
-
-MIT licensed
-
-Copyright (C) 2011-2021 Hakim El Hattab, https://hakim.se
+再顺便记一个图片显色有关的问题，我用的是默认 black 主题，但是把颜色改为了纯黑（#000），为了使插入的图片与黑色背景完全融合，就把图片的背景也都设为纯黑，就像现在这样。但这中间其实有一个曲折，黑色背景、纯白字体看久了太刺眼，中间曾经想把整个背景色换成其他近黑色的颜色，但是问题来了，即使把图片的背景色设为和幻灯背景相同的颜色，在 GIMP 中图片看起来也是完全一样的，可是一但导出 PNG 在火狐浏览器或是 Ubuntu 自带图片显示器中呈现时就会有明显色差，也就是图片背景显然和幻灯背景不同颜色，无法融合。在网上搜了一下，看到也有其他人说是软件显色的问题，拿到谷歌浏览器里去试果然没有问题，图片与背景完美融合。不知道怎么解决（或是否需要解决），还是使用了彻底的黑色背景。
