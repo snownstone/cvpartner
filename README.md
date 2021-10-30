@@ -9,7 +9,7 @@
 使用 Github Pages 发布参考这个[教程](https://danielabaron.me/blog/build-and-publish-presentation-with-html-and-css/)，分支需命名为 `gh-pages`，另外我有一点没有做的就是没有把原仓库的 commit 历史先删除干净，又学到了：
 
 ```
-git -rf .git
+rm -rf .git
 
 git init -b gh-pages
 
